@@ -1,6 +1,6 @@
 local args = shell.parse(...)
 
-if args.n == 0 then
+if #args == 0 then
   for name, value in shell.aliases() do
     print(name, value)
   end

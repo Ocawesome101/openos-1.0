@@ -1,4 +1,4 @@
-computer.romAddress = computer.tmpAddress
+computer.romAddress = computer.getBootAddress
 local function bootstrap()
   -- Minimalistic hard-coded pure async proxy for our ROM.
   local rom = {}
